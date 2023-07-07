@@ -1,0 +1,5 @@
+#!/bin/bash
+echo 'file name: '
+read x
+cp ./1-who_am_i ./${x}
+vi ${x}
