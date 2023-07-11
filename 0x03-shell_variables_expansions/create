@@ -1,5 +1,5 @@
 #!/bin/bash
 echo 'file name: '
 read x
-cp ./0-hello_world ./$x
+echo '#!/bin/bash' > ./$x
 vi $x
