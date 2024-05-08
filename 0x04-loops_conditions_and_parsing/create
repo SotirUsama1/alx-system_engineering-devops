@@ -1,0 +1,5 @@
+#!/bin/bash
+echo 'file name: '
+read x
+echo -e "#!/bin/bash\n" > ./$x
+vi $x
