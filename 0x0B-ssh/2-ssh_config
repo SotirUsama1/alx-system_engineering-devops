@@ -1,0 +1,8 @@
+# SSH Config file
+# configure it to our needs so that you can connect to a server without
+# typing a password.
+Host web01
+	HostName 3.90.84.69
+	User ubuntu
+	PasswordAuthentication no
+	IdentityFile ~/.ssh/school
