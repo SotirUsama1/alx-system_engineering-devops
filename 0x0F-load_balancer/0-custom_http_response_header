@@ -23,7 +23,7 @@ server {
     index index.html;
 
     location /redirect_me {
-        return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;
+        return 301 https://github.com/SotirUsama1;
     }
 
     error_page 404 /404.html;
